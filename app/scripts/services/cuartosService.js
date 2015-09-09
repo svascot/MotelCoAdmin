@@ -19,5 +19,5 @@ angular.module('motelCoAdminApp')
 	  this.getCuartos = function ()
 	  {
 	    return deferred.promise;
-	  }
+	  };
   });
