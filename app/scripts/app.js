@@ -22,10 +22,10 @@ angular
         controller: 'MainCtrl',
         controllerAs: 'main'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+      .when('/cuartos', {
+        templateUrl: 'views/cuartos.html',
+        controller: 'CuartosCtrl',
+        controllerAs: 'cuartos'
       })
       .otherwise({
         redirectTo: '/'
